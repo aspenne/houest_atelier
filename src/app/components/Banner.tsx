@@ -17,7 +17,7 @@ const Banner = () => {
       id="banner"
     >
       <div className="flex flex-col gap-8 w-10/12">
-        <h4 className="text-start"> Houest atelier</h4>
+        <h4 className="text-start text-white"> Houest atelier</h4>
         <h1> Services informatiques à domicile </h1>
         <div className="flex flex-row gap-8">
           <div className="flex flex-row gap-2">
@@ -27,7 +27,7 @@ const Banner = () => {
               size={1}
               color="white"
             />
-            <p>Déplacement rapide</p>
+            <p className="text-white">Déplacement rapide</p>
           </div>
           <div className="flex flex-row gap-2">
             <Icon
@@ -36,7 +36,7 @@ const Banner = () => {
               size={1}
               color="white"
             />
-            <p> Informaticiens PRO </p>
+            <p className="text-white"> Informaticiens PRO </p>
           </div>
           <div className="flex flex-row gap-2">
             <Icon
@@ -45,7 +45,7 @@ const Banner = () => {
               size={1}
               color="white"
             />
-            <p> SAV </p>
+            <p className="text-white"> SAV </p>
           </div>
           <div className="flex flex-row gap-2">
             <Icon
@@ -54,7 +54,7 @@ const Banner = () => {
               size={1}
               color="white"
             />
-            <p> Garanties </p>
+            <p className="text-white"> Garanties </p>
           </div>
           <div className="flex flex-row gap-2">
             <Icon
@@ -63,7 +63,7 @@ const Banner = () => {
               size={1}
               color="white"
             />
-            <p> Éligible crédit d&apos;impôt </p>
+            <p className="text-white"> Éligible crédit d&apos;impôt </p>
           </div>
         </div>
         <Cta color="primary" content="Planifiez mon rdv" />

@@ -11,7 +11,7 @@ const Footer = () => {
           <Image src={WhiteLogo} alt="white Logo"></Image>
           <div className="flex flex-row gap-2 items-center">
             <FontAwesomeIcon icon={faPhone} />
-            <p> 06 61 46 80 92 </p>
+            <p className="text-white"> 06 61 46 80 92 </p>
           </div>
           <div className="flex flex-row gap-2 items-center">
             <FontAwesomeIcon icon={faEnvelope} />
@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <p className="font-bold"> Plan du site</p>
+          <p className="font-bold text-white"> Plan du site</p>
           <nav>
             <ul className="flex flex-col gap-4 mt-4">
               <li>
@@ -44,7 +44,7 @@ const Footer = () => {
           </nav>
         </div>
         <div>
-          <p className="font-bold"> Politiques </p>
+          <p className="font-bold text-white"> Politiques </p>
           <nav>
             <ul className="flex flex-col gap-4 mt-4">
               <li>
@@ -57,8 +57,10 @@ const Footer = () => {
           </nav>
         </div>
       </div>
-      <div className="bg-white h-0.5 w-full"></div>
-      <p className="sub-p">2024 - © Houest Atelier - Tous droits réservés.</p>
+      <div className="bg-white h-0.5 w-full "></div>
+      <p className="sub-p text-white">
+        2024 - © Houest Atelier - Tous droits réservés.
+      </p>
     </div>
   );
 };

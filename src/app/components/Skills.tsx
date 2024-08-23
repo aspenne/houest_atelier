@@ -5,7 +5,7 @@ import Cta from "./CTA";
 const Skills = () => {
   return (
     <div
-      className="w-full py-16 px-28 flex flex-row justify-between items-start gap-8 text-black bg-secondaryLight"
+      className="w-full py-16 px-28 flex flex-row justify-between items-start gap-8 text-secondary bg-secondaryLight"
       id="services"
     >
       <div className="flex flex-col gap-8 w-[47.5%]">

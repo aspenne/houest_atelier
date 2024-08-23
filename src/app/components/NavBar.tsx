@@ -15,12 +15,12 @@ const NavBar = () => {
       ></Image>
       <ul className="flex flex-row items-center w-4/12 min-w-[350px] justify-around">
         <li>
-          <a href="#prices" className="text-black sub-p">
+          <a href="#prices" className="text-secondary sub-p">
             Tarifs
           </a>
         </li>
         <li>
-          <a href="#services" className="text-black sub-p">
+          <a href="#services" className="text-secondary sub-p">
             Services
           </a>
         </li>

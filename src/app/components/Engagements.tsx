@@ -7,7 +7,7 @@ import Cta from "./CTA";
 const Engagement = () => {
   return (
     <div
-      className="w-full py-16 px-28 flex flex-col justify-between items-center gap-8 text-black bg-secondaryLight"
+      className="w-full py-16 px-28 flex flex-col justify-between items-center gap-8 text-secondary bg-secondaryLight"
       id="engagments"
     >
       <div className="flex flex-row justify-between">
@@ -60,7 +60,7 @@ const Engagement = () => {
             ></Image>
             <div className="flex flex-col gap-3">
               <h3>50% du coût total déductible de vos impôts</h3>
-              <p>
+              <p className="text-white">
                 Vous pouvez bénéficier d’une réduction ou d’un crédit d’impôt de
                 50% sur le service à domicile que vous recevez dans le cadre des
                 services à la personne

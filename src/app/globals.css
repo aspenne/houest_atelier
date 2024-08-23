@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -80,6 +84,7 @@ h1,
 h2,
 .-h2 {
   font-family: Eigerdals;
+  color: #1c182b;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -104,6 +109,7 @@ h4,
   font-weight: 700;
   line-height: 21.6px;
   letter-spacing: 2px;
+  color: #182a48;
 }
 
 button > a {
@@ -112,9 +118,18 @@ button > a {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  color: white;
 }
 
-p,
+p {
+  font-family: Eigerdals;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  color: #182a48;
+}
+
 a {
   font-family: Eigerdals;
   font-size: 18px;
