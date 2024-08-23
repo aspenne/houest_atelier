@@ -16,18 +16,84 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+/* Title */
+
+@font-face {
+  font-family: Eigerdals;
+  src: url(../app/assets/Font/FontsFree-Net-Eigerdals3.ttf);
+}
+
+h1,
+.-h1 {
+  font-family: Eigerdals;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h2,
+.-h2 {
+  font-family: Eigerdals;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+h3,
+.-h3 {
+  font-family: Eigerdals;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.4px;
+  letter-spacing: 0.3px;
+}
+
+h4,
+.-h4 {
+  font-family: Eigerdals;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21.6px;
+  letter-spacing: 2px;
+}
+
+button > a {
+  font-family: Eigerdals;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+p,
+a {
+  font-family: Eigerdals;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.sub-p {
+  font-family: Eigerdals;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
