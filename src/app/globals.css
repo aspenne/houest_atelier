@@ -30,7 +30,44 @@
 
 @font-face {
   font-family: Eigerdals;
-  src: url(../app/assets/Font/FontsFree-Net-Eigerdals3.ttf);
+  src: url(../app/assets/fonts/fonnts.com-Eigerdals_Thin.otf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Eigerdals;
+  src: url(../app/assets/fonts/fonnts.com-Eigerdals_Light.otf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: Eigerdals;
+  src: url(../app/assets/fonts/fonnts.com-Eigerdals_Regular.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Eigerdals;
+  src: url(../app/assets/fonts/fonnts.com-Eigerdals_Medium.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Eigerdals;
+  src: url(../app/assets/fonts/fonnts.com-Eigerdals_Bold.otf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Eigerdals;
+  src: url(../app/assets/fonts/fonnts.com-Eigerdals_Black.otf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Eigerdals;
+  src: url(../app/assets/fonts/fonnts.com-Eigerdals_Heavy.otf);
+  font-weight: 900;
 }
 
 h1,
