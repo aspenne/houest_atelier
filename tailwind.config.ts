@@ -20,7 +20,7 @@ const config: Config = {
         white: "#FFFFFF",
       },
       boxShadow: {
-        navbar: "0px 4px 4px 0px rgba(0, 0, 0, 0.15)",
+        navbar: "0px 6px 6px -4px rgba(0, 0, 0, 0.15)",
         bottom: "0px 0px 4px 2px rgba(0, 0, 0, 0.15)",
       },
       fontWeight: {

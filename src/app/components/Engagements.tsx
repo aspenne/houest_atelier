@@ -1,8 +1,8 @@
 import lightbulbOnSolid from "@/app/assets/lightbulbOnSolid.svg";
+import Cta from "@/app/components/CTA";
 import { mdiCheckCircleOutline } from "@mdi/js";
 import Icon from "@mdi/react";
 import Image from "next/image";
-import Cta from "./CTA";
 
 const Engagement = () => {
   return (
@@ -11,11 +11,10 @@ const Engagement = () => {
       id="engagments"
     >
       <div className="flex flex-row justify-between">
-        <div className="w-[47.5%]">
+        <div className="w-[47.5%] flex flex-col gap-8">
           <h4> Nos engagements </h4>
           <h2> Pourquoi choisir nos services ? </h2>
           <div className="flex flex-col gap-4">
-            <div></div>
             <div className="flex flex-row gap-2">
               <Icon
                 path={mdiCheckCircleOutline}
@@ -43,11 +42,11 @@ const Engagement = () => {
               />
               <p>Efficacité et fiabilité</p>
             </div>
-            <p>
-              Nous apportons une attention particulière à la qualité de prise en
-              charge de chacun de nos clients.
-            </p>
           </div>
+          <p>
+            Nous apportons une attention particulière à la qualité de prise en
+            charge de chacun de nos clients.
+          </p>
         </div>
 
         <div className="w-[47.5%]">
@@ -67,7 +66,7 @@ const Engagement = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col gap-4 px-14 py-8">
+          <div className="flex flex-col gap-4 px-14 py-8 ml-8">
             <h3>Service de qualité</h3>
             <p>
               Nous intervenons dès que possible pour résoudre votre

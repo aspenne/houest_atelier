@@ -1,6 +1,6 @@
 import SAV from "@/app/assets/depannageInformatiqueNantesSav.png";
+import Cta from "@/app/components/CTA";
 import Image from "next/image";
-import Cta from "./CTA";
 
 const Price = () => {
   return (

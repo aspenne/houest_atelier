@@ -66,7 +66,9 @@ const Banner = () => {
             <p className="text-white"> Éligible crédit d&apos;impôt </p>
           </div>
         </div>
-        <Cta color="primary" content="Planifiez mon rdv" />
+        <div className="max-w-[200px]">
+          <Cta color="primary" content="Planifiez mon rdv" />
+        </div>
       </div>
     </div>
   );

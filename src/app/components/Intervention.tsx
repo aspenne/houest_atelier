@@ -2,8 +2,8 @@ import CB from "@/app/assets/VectorCB.svg";
 import Running from "@/app/assets/VectorRunning.svg";
 import SAV from "@/app/assets/VectorSAV.svg";
 import Signing from "@/app/assets/VectorSining.svg";
+import Cta from "@/app/components/CTA";
 import Image from "next/image";
-import Cta from "./CTA";
 
 const Intervention = () => {
   return (

@@ -1,0 +1,15 @@
+# Enable mod_rewrite
+
+RewriteEngine On
+
+# Redirect all requests to index.php
+
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.\*)$ index.php/$1 [L]
+
+# Redirect CGU and LegalNotices
+
+RewriteRule ^CGU$ CGU.html [L]
+RewriteRule ^legalNotices$ legalNotices.html [L]

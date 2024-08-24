@@ -7,12 +7,14 @@ interface CtaProps {
   color?: "primary" | "secondary";
   content?: string;
   header?: boolean;
+  link?: string;
 }
 
 const Cta: React.FC<CtaProps> = ({
   color = "primary",
   content = "Prendre rendez-vous",
   header = false,
+  link = "https://tidycal.com/aspenne/rendez-vous-personnel",
 }) => {
   const buttonRef = useRef(null);
   const divRef = useRef(null);
@@ -57,12 +59,12 @@ const Cta: React.FC<CtaProps> = ({
 
   return header ? (
     <div
-      className="flex items-center justify-center border-primary border-4 rounded-xl max-w-[220px]"
+      className="flex items-center justify-center border-primary border-4 rounded-xl"
       ref={divRef}
     >
       <button
         ref={buttonRef}
-        className={`flex justify-center items-center rounded-xl ${bgColor} py-5 text-white h-[56px] w-[200px] m-1`}
+        className={`flex justify-center items-center rounded-xl ${bgColor} py-5 text-white h-[56px] m-1 p-2`}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         style={buttonStyle}
@@ -75,14 +77,12 @@ const Cta: React.FC<CtaProps> = ({
   ) : (
     <button
       ref={buttonRef}
-      className={`flex justify-center items-center rounded-xl ${bgColor} p-4 text-white h-[56px] w-[200px]`}
+      className={`flex justify-center items-center rounded-xl ${bgColor} p-4 text-white h-[56px]`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       style={buttonStyle}
     >
-      <Link href="https://tidycal.com/aspenne/rendez-vous-personnel">
-        {content}
-      </Link>
+      <Link href={link}>{content}</Link>
     </button>
   );
 };

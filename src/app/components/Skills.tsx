@@ -1,6 +1,6 @@
+import Cta from "@/app/components/CTA";
 import { faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Cta from "./CTA";
 
 const Skills = () => {
   return (
@@ -16,7 +16,9 @@ const Skills = () => {
           Prenez rendez-vous dès maintenant, et voyons comment je peux vous
           aider.
         </p>
-        <Cta />
+        <div className="max-w-[200px]">
+          <Cta />
+        </div>
       </div>
       <div className="flex flex-col gap-16 w-[47.5%]">
         <div className="flex flex-row gap-10">

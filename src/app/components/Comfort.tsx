@@ -1,4 +1,4 @@
-import Cta from "./CTA";
+import Cta from "@/app/components/CTA";
 
 const Comfort = () => {
   return (

@@ -5,10 +5,10 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="w-full py-4 px-28 gap-8 flex flex-col justify-between items-center bg-secondary text-white">
+    <div className="w-full py-8 px-28 gap-8 flex flex-col justify-between items-center bg-secondary text-white">
       <div className="flex flex-row justify-between w-full">
         <div className="flex flex-col gap-4">
-          <Image src={WhiteLogo} alt="white Logo"></Image>
+          <Image className="mb-2" src={WhiteLogo} alt="white Logo"></Image>
           <div className="flex flex-row gap-2 items-center">
             <FontAwesomeIcon icon={faPhone} />
             <p className="text-white"> 06 61 46 80 92 </p>
@@ -26,7 +26,7 @@ const Footer = () => {
           <nav>
             <ul className="flex flex-col gap-4 mt-4">
               <li>
-                <a href="#banner">Accueil</a>
+                <a href="/">Accueil</a>
               </li>
               <li>
                 <a href="#services">Services</a>
@@ -51,7 +51,7 @@ const Footer = () => {
                 <a href="/legalNotices">Mentions légales</a>
               </li>
               <li>
-                <a href="#services">Politique de confidentialité</a>
+                <a href="/CGU">Conditions générales </a>
               </li>
             </ul>
           </nav>
