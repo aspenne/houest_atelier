@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/private/",
     },
-    sitemap: "https://houest-atelier.fr/sitemap.ts",
+    sitemap: "https://houest-atelier.fr/sitemap.xml",
   };
 }

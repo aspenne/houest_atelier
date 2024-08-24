@@ -31,9 +31,9 @@ jobs:
           SERVER_PATH: ${{ secrets.SERVER_PATH }}
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
+          mkdir -p ~/.ssh
           ssh-keyscan -p $SERVER_PORT $SERVER_HOST >> ~/.ssh/known_hosts
+          echo "$SSH_PRIVATE_KEY" | tr -d '\r' > private_key.pem
           chmod 600 private_key.pem
           scp -P $SERVER_PORT -i private_key.pem -r ./out/* $SERVER_USER@$SERVER_HOST:$SERVER_PATH
-          scp -P 65002 -i private_key.pem -r ./out/* u621401600@91.108.101.231:$SERVER_PATH
-          scp -P 65002 -r ./out/* u621401600@91.108.101.231:domains/snow-dugong-435469.hostingersite.com/public_html/
           rm private_key.pem
