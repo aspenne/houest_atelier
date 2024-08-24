@@ -13,3 +13,7 @@ RewriteRule ^(.\*)$ index.php/$1 [L]
 
 RewriteRule ^CGU$ CGU.html [L]
 RewriteRule ^legalNotices$ legalNotices.html [L]
+
+# Redirect to error page
+
+ErrorDocument 404 /404.html

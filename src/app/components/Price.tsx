@@ -10,7 +10,13 @@ const Price = () => {
     >
       <h2> Mes tarifs</h2>
       <div className="flex flex-row justify-between items-center gap-3">
-        <Image src={SAV.src} alt="SAV" width={100} height={100} />
+        <Image
+          className="w-auto h-auto"
+          src={SAV.src}
+          alt="SAV"
+          width={100}
+          height={100}
+        />
         <p className="text-primary text-center -h3">
           {" "}
           Grâce au Service à la personne, <br></br> les prestations à domiciles

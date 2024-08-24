@@ -1,3 +1,5 @@
+"use client";
+
 import Logo from "@/app/assets/Logo.svg";
 import CTA from "@/app/components/CTA";
 import Image from "next/image";

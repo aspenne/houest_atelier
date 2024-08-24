@@ -1,4 +1,4 @@
-import BannerBack from "@/app/assets/bannerBack.png";
+import BannerBack from "@/app/assets/BannerBack.png";
 import Cta from "@/app/components/CTA";
 import { mdiCheckCircleOutline } from "@mdi/js";
 import Icon from "@mdi/react";

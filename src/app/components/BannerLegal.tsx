@@ -21,7 +21,7 @@ const BannerLegal: React.FC<BannerLegalProps> = ({
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
       }}
-      id="banner"
+      id="banner2"
     >
       <div className="flex flex-col gap-8 w-10/12">
         <h4 className="text-start text-white"> Houest atelier</h4>
