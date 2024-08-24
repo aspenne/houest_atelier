@@ -31,6 +31,11 @@ jobs:
           SERVER_PATH: ${{ secrets.SERVER_PATH }}
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
+          echo "$SERVER_HOST"
+          echo "$SERVER_USER"
+          echo "$SERVER_PORT"
+          echo "$SERVER_PATH"
+          echo "$SSH_PRIVATE_KEY"
           echo "$SSH_PRIVATE_KEY" > private_key.pem
           chmod 600 private_key.pem
           scp -P $SERVER_PORT -i private_key.pem -r ./out/* $SERVER_USER@$SERVER_HOST:$SERVER_PATH
