@@ -8,22 +8,21 @@ import Image from "next/image";
 const Intervention = () => {
   return (
     <div
-      className="w-full py-16 px-28 flex flex-col justify-between items-center gap-8 text-black"
+      className="w-full  py-7 px-7 flex flex-col justify-between gap-8 text-secondary bg-white sm:px-16 sm:py-28"
       id="intervention"
     >
-      <div className="flex flex-col gap-8 py-16 px-8 justify-between items-center bg-secondaryLight rounded-[32px]">
-        <h2> Les étapes pour une intervention </h2>
-        <div className="flex flex-row justify-between items-start gap-3">
-          <div className="flex flex-col gap-6 w-3/12 text-center items-center">
-            <Image src={Signing} alt="signing image"></Image>
+      <div className="flex flex-col gap-8 py-7 sm:py-16 px-8 justify-between items-center bg-secondaryLight rounded-[32px]">
+        <h2 className="text-center"> Les étapes pour une intervention </h2>
+        <div className="flex flex-col sm:flex-row justify-between items-start gap-6 sm:gap-3">
+          <div className="flex flex-col gap-3 sm:gap-6 w-full sm:w-3/12 text-center items-center">
+            <Image src={Signing} alt="signing image" height={50}></Image>
             <p className="text-primary font-semibold">
-              {" "}
               1 - Prise de rendez-vous
             </p>
             <p> Fixer un rendez-vous.</p>
           </div>
-          <div className="flex flex-col gap-6 w-3/12 text-center items-center">
-            <Image src={Running} alt="running image"></Image>
+          <div className="flex flex-col gap-3 sm:gap-6 w-full sm:w-3/12 text-center items-center">
+            <Image src={Running} alt="running image" height={50}></Image>
             <p className="text-primary font-semibold"> 2 - Intervention</p>
             <p>
               {" "}
@@ -31,13 +30,13 @@ const Intervention = () => {
               sélectionné.
             </p>
           </div>
-          <div className="flex flex-col gap-6 w-3/12 text-center items-center">
-            <Image src={CB} alt=" credit card image"></Image>
+          <div className="flex flex-col gap-3 sm:gap-6 w-full sm:w-3/12 text-center items-center">
+            <Image src={CB} alt=" credit card image" height={50}></Image>
             <p className="text-primary font-semibold"> 3 - Paiement</p>
             <p> En fin de RDV physique, par chèque ou par carte bancaire.</p>
           </div>
-          <div className="flex flex-col gap-6 w-3/12 text-center items-center">
-            <Image src={SAV} alt=" SAV image"></Image>
+          <div className="flex flex-col gap-3 sm:gap-6 w-full sm:w-3/12 text-center items-center">
+            <Image src={SAV} alt=" SAV image" height={50}></Image>
             <p className="text-primary font-semibold"> 4 - Suivi & SAV</p>
             <p>
               {" "}

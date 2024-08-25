@@ -24,6 +24,9 @@
 
 * {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Title */
@@ -144,4 +147,82 @@ a {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+@media (max-width: 640px) {
+  h1,
+  .-h1 {
+    font-family: Eigerdals;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  h2,
+  .-h2 {
+    font-family: Eigerdals;
+    color: #1c182b;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+  }
+
+  h3,
+  .-h3 {
+    font-family: Eigerdals;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+  }
+
+  h4,
+  .-h4 {
+    font-family: Eigerdals;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #182a48;
+  }
+
+  button > a {
+    font-family: Eigerdals;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: white;
+  }
+
+  p {
+    font-family: Eigerdals;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    color: #182a48;
+  }
+
+  a {
+    font-family: Eigerdals;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .sub-p {
+    font-family: Eigerdals;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
 }

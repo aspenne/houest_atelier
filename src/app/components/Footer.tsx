@@ -5,23 +5,23 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="w-full py-8 px-28 gap-8 flex flex-col justify-between items-center bg-secondary text-white">
-      <div className="flex flex-row justify-between w-full">
+    <div className="w-full py-4 px-7 gap-8 flex flex-col justify-between items-center bg-secondary text-white sm:px-28 sm:py-8">
+      <div className="flex flex-col sm:flex-row justify-between w-full">
         <div className="flex flex-col gap-4">
           <Image className="mb-2" src={WhiteLogo} alt="white Logo"></Image>
           <div className="flex flex-row gap-2 items-center">
-            <FontAwesomeIcon icon={faPhone} />
+            <FontAwesomeIcon icon={faPhone} className="w-4 sm:w-6" />
             <p className="text-white"> 06 61 46 80 92 </p>
           </div>
           <div className="flex flex-row gap-2 items-center">
-            <FontAwesomeIcon icon={faEnvelope} />
+            <FontAwesomeIcon icon={faEnvelope} className="w-4 sm:w-6" />
             <a href="mailto:contact@houestatelier.fr">
               {" "}
               contact@houestatelier.fr{" "}
             </a>
           </div>
         </div>
-        <div>
+        <div className="mt-7 sm:mt-0">
           <p className="font-bold text-white"> Plan du site</p>
           <nav>
             <ul className="flex flex-col gap-4 mt-4">
@@ -43,7 +43,7 @@ const Footer = () => {
             </ul>
           </nav>
         </div>
-        <div>
+        <div className="mt-7 sm:mt-0">
           <p className="font-bold text-white"> Politiques </p>
           <nav>
             <ul className="flex flex-col gap-4 mt-4">

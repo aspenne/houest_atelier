@@ -10,7 +10,7 @@ export default function Home() {
     <div className="flex min-h-screen flex-col items-center ">
       <NavBar />
       <BannerLegal title="Mention légales" image={BannerBackLegal} />
-      <div className="w-full py-16 px-28 flex flex-col justify-between gap-8 text-secondary bg-secondaryLight">
+      <div className="w-full  py-4 px-7 sm:py-16 sm:px-28 flex flex-col justify-between gap-8 text-secondary bg-secondaryLight">
         <h2>Définitions</h2>
         <p>
           Client : tout professionnel ou personne physique capable au sens des

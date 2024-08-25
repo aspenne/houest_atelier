@@ -5,7 +5,7 @@ import Image from "next/image";
 const Price = () => {
   return (
     <div
-      className="w-full py-16 px-28 flex flex-col justify-between items-center gap-8"
+      className="w-full py-14 px-7 flex flex-col justify-between items-center gap-8 text-secondary bg-white sm:px-16 sm:py-28"
       id="prices"
     >
       <h2> Mes tarifs</h2>
@@ -17,19 +17,19 @@ const Price = () => {
           width={100}
           height={100}
         />
-        <p className="text-primary text-center -h3">
+        <p className="text-primary font-medium sm:font-bold text-lg sm:text-2xl sm:text-center m-">
           {" "}
           Grâce au Service à la personne, <br></br> les prestations à domiciles
           donnent droit à -50% de la facture ! €
         </p>
       </div>
 
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-col md:flex-row justify-between">
         {/* Intervention Part  */}
-        <div className="flex flex-col gap-8 w-[47.5%]">
+        <div className="flex flex-col gap-8 w-full sm:w-[47.5%]">
           <h4> Intervention à domicile* </h4>
           <div className="flex flex-col gap-3 w-full">
-            <div className="flex flex-row justify-between">
+            <div className="flex flex-row justify-between min-w-[315px]">
               <div>
                 <p> Intervention de 1h </p>
                 <p> Par tranche de 15 min </p>
@@ -60,9 +60,9 @@ const Price = () => {
         </div>
 
         {/* Intervention Travel expenses  */}
-        <div className="flex flex-col gap-8 w-[47.5%]">
+        <div className="flex flex-col gap-8 w-full sm:w-[47.5%] mt-5 md:mt-0">
           <h4> Frais de déplacement </h4>
-          <div className="flex flex-row ">
+          <div className="flex flex-row min-w-[315px]">
             <div className="flex flex-col gap-3 w-full">
               <p className="text-primary font-semibold"> Petite couronne </p>
               <p> Rezé / Bouguenais </p>
