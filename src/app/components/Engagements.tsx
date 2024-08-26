@@ -7,14 +7,14 @@ import Image from "next/image";
 const Engagement = () => {
   return (
     <div
-      className="w-full py-4 px-7 flex flex-col justify-between items-center :items-start gap-8 text-secondary text-center sm:text-start bg-secondaryLight sm:px-16 sm:py-28"
+      className="w-full py-4 px-7 flex flex-col justify-between items-center :items-start gap-8 text-secondary text-start bg-secondaryLight sm:px-16 sm:py-28"
       id="engagments"
     >
       <div className="flex flex-col sm:flex-row justify-between">
         <div className="w-full sm:w-[47.5%] flex flex-col gap-8">
           <h4> Nos engagements </h4>
           <h2> Pourquoi choisir nos services ? </h2>
-          <div className="flex flex-col gap-4 ml-[20%] sm:ml-0">
+          <div className="flex flex-col gap-4">
             <div className="flex flex-row gap-2">
               <Icon
                 path={mdiCheckCircleOutline}

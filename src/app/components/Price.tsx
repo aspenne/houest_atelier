@@ -19,8 +19,8 @@ const Price = () => {
         />
         <p className="text-primary font-medium sm:font-bold text-lg sm:text-2xl sm:text-center m-">
           {" "}
-          Grâce au Service à la personne, <br></br> les prestations à domiciles
-          donnent droit à -50% de la facture ! €
+          Grâce au Service à la personne, <br></br>
+          les prestations à domiciles donnent droit à -50% de la facture !
         </p>
       </div>
 
@@ -50,8 +50,8 @@ const Price = () => {
           <p>
             {" "}
             Pour toute annulation, merci de nous prévenir au moins 24 heures à
-            l&apos;avance. Passé ce délai, les frais de déplacement seront
-            facturés.{" "}
+            l&apos;avance. Passé ce délai, les frais de déplacement
+            pourront-être facturés.{" "}
           </p>
           <p className="text-primary">
             {" "}
@@ -89,7 +89,10 @@ const Price = () => {
         </div>
       </div>
       <div className="flex flex-col items-center gap-2">
-        <p> J’accepte les paiements par chèque, carte bancaire ou espèces. </p>
+        <p>
+          {" "}
+          Nous acceptions les paiements par chèque, carte bancaire ou espèces.{" "}
+        </p>
         <p className="font-semibold">
           Veuillez noter que la remise ne s&apos;applique pas aux services à la
           personne payés en espèces.

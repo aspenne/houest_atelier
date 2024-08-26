@@ -113,6 +113,7 @@ h4,
   line-height: 21.6px;
   letter-spacing: 2px;
   color: #182a48;
+  text-transform: uppercase;
 }
 
 button > a {

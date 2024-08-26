@@ -61,7 +61,7 @@ const Cta: React.FC<CtaProps> = ({
 
   return header ? (
     <div
-      className="flex items-center justify-center border-primary border-4 rounded-xl"
+      className="flex items-center justify-center border-primary border-4 rounded-2xl"
       ref={divRef}
     >
       <button

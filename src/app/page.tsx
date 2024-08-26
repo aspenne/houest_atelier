@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "SAV",
   ],
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     site: "houest-atelier.fr",
     title: "Houest Atelier",
     description: "Auto-entrepreneur en dépannage informatique",

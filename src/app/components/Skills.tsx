@@ -30,18 +30,18 @@ const Skills = () => {
       id="services"
     >
       <div className="flex flex-col gap-6 w-full items-center sm:items-start sm:w-[47,5%] sm:gap-8 text-center sm:text-start">
-        <h4> Mes Services </h4>
-        <h2> Quels son mes compétences ? </h2>
+        <h4> Nos services </h4>
+        <h2> Quels sont mes compétences ? </h2>
         <p>
           {" "}
-          Prenez rendez-vous dès maintenant, et voyons comment je peux vous
-          aider.
+          Prenez rendez-vous dès maintenant, et voyons comment je nous pouvons
+          vous aider
         </p>
         {!isMobile && <Cta />}
       </div>
       <div className="flex flex-col gap-10 w-full sm:w-[47,5%] sm:gap-16">
         <div className="flex flex-row gap-10">
-          <div className="flex flex-col gap-4 items-center text-center">
+          <div className="flex flex-col gap-4 items-start text-start">
             <div className="flex justify-center items-center bg-secondary w-14 h-14 p-2 rounded">
               <FontAwesomeIcon
                 icon={faScrewdriverWrench}
@@ -59,7 +59,7 @@ const Skills = () => {
               <span className="text-primary"> J’optimise votre système. </span>
             </p>
           </div>
-          <div className="flex flex-col gap-4 items-center text-center">
+          <div className="flex flex-col gap-4 items-start text-start">
             <div className="flex justify-center items-center bg-secondary w-14 h-14 p-2 rounded">
               <FontAwesomeIcon
                 icon={faScrewdriverWrench}
@@ -79,7 +79,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="flex flex-row gap-10 ">
-          <div className="flex flex-col gap-4 items-center text-center">
+          <div className="flex flex-col gap-4 items-start text-start">
             <div className="flex justify-center items-center bg-secondary w-14 h-14 p-2 rounded">
               <FontAwesomeIcon
                 icon={faScrewdriverWrench}
@@ -97,7 +97,7 @@ const Skills = () => {
               <span className="text-primary"> J’optimise votre système. </span>
             </p>
           </div>
-          <div className="flex flex-col gap-4 items-center text-center">
+          <div className="flex flex-col gap-4 items-start text-start">
             <div className="flex justify-center items-center bg-secondary w-14 h-14 p-2 rounded">
               <FontAwesomeIcon
                 icon={faScrewdriverWrench}
