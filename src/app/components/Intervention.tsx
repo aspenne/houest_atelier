@@ -19,27 +19,33 @@ const Intervention = () => {
             <p className="text-primary font-semibold">
               1 - Prise de rendez-vous
             </p>
-            <p> Fixer un rendez-vous.</p>
+            <p>
+              {" "}
+              Fixer un rendez-vous grâce à notre plateforme en ligne ou par
+              téléphone au 07 71 11 81 76
+            </p>
           </div>
           <div className="flex flex-col gap-3 sm:gap-6 w-full sm:w-3/12 text-center items-center">
             <Image src={Running} alt="running image" height={50}></Image>
             <p className="text-primary font-semibold"> 2 - Intervention</p>
             <p>
-              {" "}
-              Nous intervenons à votre domicile sur le créneau que vous avez
-              sélectionné.
+              Nous intervenons à votre domicile ou à distance, sur le créneau
+              que vous avez sélectionné
             </p>
           </div>
           <div className="flex flex-col gap-3 sm:gap-6 w-full sm:w-3/12 text-center items-center">
             <Image src={CB} alt=" credit card image" height={50}></Image>
             <p className="text-primary font-semibold"> 3 - Paiement</p>
-            <p> En fin de RDV physique, par chèque ou par carte bancaire.</p>
+            <p>
+              {" "}
+              En fin de RDV physique, payé par chèque, espèces ou carte bancaire
+              et par virement pour les RDV à distance
+            </p>
           </div>
           <div className="flex flex-col gap-3 sm:gap-6 w-full sm:w-3/12 text-center items-center">
             <Image src={SAV} alt=" SAV image" height={50}></Image>
             <p className="text-primary font-semibold"> 4 - Suivi & SAV</p>
             <p>
-              {" "}
               En cas de besoin, nous fournissons une assistance rapide pour
               compléter notre intervention si nécessaire.
             </p>

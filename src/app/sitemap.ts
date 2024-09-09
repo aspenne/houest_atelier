@@ -15,6 +15,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.1,
     },
     {
+      url: "https://houest-atelier.fr/CGV",
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.1,
+    },
+    {
       url: "https://acme.com/blog/legalNotices",
       lastModified: new Date(),
       changeFrequency: "yearly",

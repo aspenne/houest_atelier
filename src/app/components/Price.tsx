@@ -9,7 +9,7 @@ const Price = () => {
       id="prices"
     >
       <h2> Mes tarifs</h2>
-      <div className="flex flex-row justify-between items-center gap-3">
+      <div className="flex flex-row justify-between items-center gap-3 mb-3">
         <Image
           className="w-auto h-auto"
           src={SAV.src}
@@ -27,7 +27,7 @@ const Price = () => {
       <div className="flex flex-col md:flex-row justify-between">
         {/* Intervention Part  */}
         <div className="flex flex-col gap-8 w-full sm:w-[47.5%]">
-          <h4> Intervention à domicile* </h4>
+          <h4> Intervention à domicile </h4>
           <div className="flex flex-col gap-3 w-full">
             <div className="flex flex-row justify-between min-w-[315px]">
               <div>
@@ -47,15 +47,26 @@ const Price = () => {
               </div>
             </div>
           </div>
+
+          <h4> Intervention à distance </h4>
+          <div className="flex flex-col gap-3 w-full">
+            <div className="flex flex-row justify-between min-w-[315px]">
+              <div>
+                <p> Intervention de 1h </p>
+                <p> Par tranche de 30 min </p>
+              </div>
+              <div>
+                <p className="text-end"> 35 €</p>
+                <p className="text-end"> 17,5 €</p>
+              </div>
+            </div>
+          </div>
+
           <p>
             {" "}
             Pour toute annulation, merci de nous prévenir au moins 24 heures à
             l&apos;avance. Passé ce délai, les frais de déplacement
             pourront-être facturés.{" "}
-          </p>
-          <p className="text-primary">
-            {" "}
-            *tarif après déduction du crédit d’impôts du “Service à la personne”
           </p>
         </div>
 
@@ -89,11 +100,15 @@ const Price = () => {
         </div>
       </div>
       <div className="flex flex-col items-center gap-2">
+        <p className="text-primary">
+          {" "}
+          *tarif après déduction du crédit d’impôts du “Service à la personne”
+        </p>
         <p>
           {" "}
           Nous acceptions les paiements par chèque, carte bancaire ou espèces.{" "}
         </p>
-        <p className="font-semibold">
+        <p className="font-semibold text-primary">
           Veuillez noter que la remise ne s&apos;applique pas aux services à la
           personne payés en espèces.
         </p>

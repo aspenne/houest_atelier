@@ -1,4 +1,4 @@
-import lightbulbOnSolid from "@/app/assets/lightbulbOnSolid.svg";
+import lightbulbOnSolid from "@/app/assets/lightbulb-on-solid.svg";
 import Cta from "@/app/components/CTA";
 import { mdiCheckCircleOutline } from "@mdi/js";
 import Icon from "@mdi/react";
@@ -51,12 +51,6 @@ const Engagement = () => {
 
         <div className="w-full sm:w-[47.5%] mt-5 sm:mt-0">
           <div className="flex flex-row gap-3 bg-primary rounded-2xl px-4 sm:px-14 py-4 sm:py-8 text-white items-start">
-            <Image
-              src={lightbulbOnSolid.src}
-              alt="lightbulb image"
-              width={25}
-              height={20}
-            ></Image>
             <div className="flex flex-col gap-3">
               <h3>50% du coût total déductible de vos impôts</h3>
               <p className="text-white">
@@ -66,13 +60,22 @@ const Engagement = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col gap-4 pt-8 sm:py-8 sm:ml-14 sm:px-8">
-            <h3>Service de qualité</h3>
-            <p>
-              Nous intervenons dès que possible pour résoudre votre
-              problématique. Pas de déplacement inutile, pas d&apos;intervention
-              sans issue.
-            </p>
+          <div className="flex flex-row items-start gap-4 pt-8 sm:py-8  sm:px-8">
+            <Image
+              src={lightbulbOnSolid.src}
+              alt="lightbulb image"
+              width={25}
+              height={20}
+              color="#E98123"
+            ></Image>
+            <div className="flex flex-col gap-3">
+              <h3>Service de qualité</h3>
+              <p>
+                Nous intervenons dès que possible pour résoudre votre
+                problématique. Pas de déplacement inutile, pas
+                d&apos;intervention sans issue.
+              </p>
+            </div>
           </div>
         </div>
       </div>

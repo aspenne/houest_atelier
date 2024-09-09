@@ -9,9 +9,10 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.\*)$ index.php/$1 [L]
 
-# Redirect CGU and LegalNotices
+# Redirect CGU CGV and LegalNotices
 
 RewriteRule ^CGU$ CGU.html [L]
+RewriteRule ^CGV$ CGV.html [L]
 RewriteRule ^legalNotices$ legalNotices.html [L]
 
 # Redirect to error page

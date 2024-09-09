@@ -6,7 +6,7 @@ import Icon from "@mdi/react";
 const Banner = () => {
   return (
     <div
-      className="w-full flex items-center justify-center h-[650px] text-white"
+      className="w-full flex items-center justify-center h-[650px] text-white px-10"
       style={{
         backgroundImage: `url(${BannerBack.src})`,
         backgroundColor: "lightgray",
@@ -16,10 +16,10 @@ const Banner = () => {
       }}
       id="banner"
     >
-      <div className="flex flex-col gap-8 w-10/12">
+      <div className="flex flex-col gap-8">
         <h4 className="text-start text-white"> Houest atelier</h4>
         <h1> Services informatiques à domicile </h1>
-        <div className="flex flex-col gap-8 sm:flex-row">
+        <div className="flex flex-col gap-8 sm:flex-row flex-wrap">
           <div className="flex flex-row gap-2">
             <Icon
               path={mdiCheckCircleOutline}

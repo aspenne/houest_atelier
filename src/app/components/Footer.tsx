@@ -11,13 +11,13 @@ const Footer = () => {
           <Image className="mb-2" src={WhiteLogo} alt="white Logo"></Image>
           <div className="flex flex-row gap-2 items-center">
             <FontAwesomeIcon icon={faPhone} className="w-4 sm:w-6" />
-            <p className="text-white"> 06 61 46 80 92 </p>
+            <p className="text-white"> 07 71 11 81 76 </p>
           </div>
           <div className="flex flex-row gap-2 items-center">
             <FontAwesomeIcon icon={faEnvelope} className="w-4 sm:w-6" />
             <a href="mailto:contact@houestatelier.fr">
               {" "}
-              contact@houestatelier.fr{" "}
+              contact@houest-atelier.fr
             </a>
           </div>
         </div>
@@ -51,7 +51,10 @@ const Footer = () => {
                 <a href="/legalNotices">Mentions légales</a>
               </li>
               <li>
-                <a href="/CGU">Conditions générales </a>
+                <a href="/CGU">Conditions générales d&apos;utilisation</a>
+              </li>
+              <li>
+                <a href="/CGV">Conditions générales de ventes</a>
               </li>
             </ul>
           </nav>

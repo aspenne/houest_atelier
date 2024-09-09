@@ -11,7 +11,7 @@ export default function Home() {
       <NavBar />
       <BannerLegal title="Mention légales" image={BannerBackLegal} />
       <div className="w-full  py-4 px-7 sm:py-16 sm:px-28 flex flex-col justify-between gap-8 text-secondary bg-secondaryLight">
-        <h2>Définitions</h2>
+        <h3 className="font-bold">Définitions</h3>
         <p>
           Client : tout professionnel ou personne physique capable au sens des
           articles 1123 et suivants du Code civil, ou personne morale, qui
@@ -49,7 +49,7 @@ export default function Home() {
           « sous traitant » et « données sensibles » ont le sens défini par le
           Règlement Général sur la Protection des Données (RGPD : n° 2016-679)
         </p>
-        <h2>1. Présentation du site internet.</h2>
+        <h3 className="font-bold">1. Présentation du site internet.</h3>
         <p>
           En vertu de l&apos;article 6 de la loi n° 2004-575 du 21 juin 2004
           pour la confiance dans l&apos;économie numérique, il est précisé aux
@@ -90,10 +90,10 @@ export default function Home() {
             </a>
           </p>
         </div>
-        <h2>
+        <h3 className="font-bold">
           2. Conditions générales d’utilisation du site et des services
           proposés.
-        </h2>
+        </h3>
         <p>
           Le Site constitue une œuvre de l’esprit protégée par les dispositions
           du Code de la Propriété Intellectuelle et des Réglementations
@@ -126,7 +126,7 @@ export default function Home() {
           qui est invité à s’y référer le plus souvent possible afin d’en
           prendre connaissance.
         </p>
-        <h2>3. Description des services fournis.</h2>
+        <h3 className="font-bold">3. Description des services fournis.</h3>
         <p>
           Le site internet{" "}
           <a href="https://housest-atelier.fr">https://housest-atelier.fr</a> a
@@ -151,7 +151,9 @@ export default function Home() {
           sont pas exhaustifs. Ils sont donnés sous réserve de modifications
           ayant été apportées depuis leur mise en ligne.
         </p>
-        <h2>4. Limitations contractuelles sur les données techniques.</h2>
+        <h3 className="font-bold">
+          4. Limitations contractuelles sur les données techniques.
+        </h3>
         <p>
           Le site utilise la technologie JavaScript. Le site Internet ne pourra
           être tenu responsable de dommages matériels liés à l’utilisation du
@@ -180,7 +182,9 @@ export default function Home() {
           matériel informatique et de téléphonie lié notamment à l’encombrement
           du réseau empêchant l’accès au serveur.
         </p>
-        <h2>5. Propriété intellectuelle et contrefaçons.</h2>
+        <h3 className="font-bold">
+          5. Propriété intellectuelle et contrefaçons.
+        </h3>
         <p>
           <a href="https://housest-atelier.fr">https://housest-atelier.fr</a>{" "}
           est propriétaire des droits de propriété intellectuelle et détient les
@@ -198,7 +202,7 @@ export default function Home() {
           contrefaçon et poursuivie conformément aux dispositions des articles
           L.335-2 et suivants du Code de Propriété Intellectuelle.
         </p>
-        <h2>6. Limitations de responsabilité.</h2>
+        <h3 className="font-bold">6. Limitations de responsabilité.</h3>
         <p>
           <a href="https://housest-atelier.fr">https://housest-atelier.fr</a>{" "}
           agit en tant qu’éditeur du site.{" "}
@@ -234,14 +238,16 @@ export default function Home() {
           caractère raciste, injurieux, diffamant, ou pornographique, quel que
           soit le support utilisé (texte, photographie …).
         </p>
-        <h2>7. Gestion des données personnelles.</h2>
+        <h3 className="font-bold">7. Gestion des données personnelles.</h3>
         <p>
           Le Client est informé des réglementations concernant la communication
           marketing, la loi du 21 Juin 2014 pour la confiance dans l’Economie
           Numérique, la Loi Informatique et Liberté du 06 Août 2004 ainsi que du
           Règlement Général sur la Protection des Données (RGPD : n° 2016-679).{" "}
         </p>
-        <h3>7.1 Responsables de la collecte des données personnelles</h3>
+        <h3 className="font-bold">
+          7.1 Responsables de la collecte des données personnelles
+        </h3>
         <p>
           Pour les Données Personnelles collectées dans le cadre de la prise
           d&apos;un rendez vous de l’utilisateur et de sa navigation sur le
@@ -268,7 +274,7 @@ export default function Home() {
           <a href="https://housest-atelier.fr">https://housest-atelier.fr</a>{" "}
           les traite.
         </p>
-        <h3>7.2 Finalité des données collectées</h3>
+        <h3 className="font-bold">7.2 Finalité des données collectées</h3>
         <p>
           <a href="https://housest-atelier.fr">https://housest-atelier.fr</a>{" "}
           est susceptible de traiter tout ou partie des données :{" "}
@@ -307,7 +313,9 @@ export default function Home() {
           commercialise pas vos données personnelles qui sont donc uniquement
           utilisées par nécessité ou à des fins statistiques et d’analyses.
         </p>
-        <h3>7.3 Droit d’accès, de rectification et d’opposition</h3>
+        <h3 className="font-bold">
+          7.3 Droit d’accès, de rectification et d’opposition
+        </h3>
         <p>
           Conformément à la réglementation européenne en vigueur, les
           Utilisateurs de{" "}
@@ -391,7 +399,9 @@ export default function Home() {
           peuvent déposer une réclamation auprès des autorités de contrôle, et
           notamment de la CNIL (https://www.cnil.fr/fr/plaintes).
         </p>
-        <h3>7.4 Non-communication des données personnelles</h3>
+        <h3 className="font-bold">
+          7.4 Non-communication des données personnelles
+        </h3>
         <p>
           <a href="https://housest-atelier.fr">https://housest-atelier.fr</a>{" "}
           s’interdit de traiter, héberger ou transférer les Informations
@@ -432,7 +442,7 @@ export default function Home() {
           sont principalement les agents de notre service client.
         </p>
         <div ng-bind-html="rgpdHTML"></div>
-        <h2>8. Notification d’incident</h2>
+        <h3 className="font-bold">8. Notification d’incident</h3>
         <p>
           Quels que soient les efforts fournis, aucune méthode de transmission
           sur Internet et aucune méthode de stockage électronique n&apos;est
@@ -460,7 +470,7 @@ export default function Home() {
           l&apos;utilisateur du site{" "}
           <a href="https://housest-atelier.fr">https://housest-atelier.fr</a>.
         </p>
-        <h3>Sécurité</h3>
+        <h3 className="font-bold">Sécurité</h3>
         <p>
           Pour assurer la sécurité et la confidentialité des Données
           Personnelles et des Données Personnelles de Santé,{" "}
@@ -475,7 +485,9 @@ export default function Home() {
           toute perte, utilisation détournée, accès non autorisé, divulgation,
           altération ou destruction.
         </p>
-        <h2>9. Liens hypertextes « cookies » et balises (“tags”) internet</h2>
+        <h3 className="font-bold">
+          9. Liens hypertextes « cookies » et balises (“tags”) internet
+        </h3>
         <p>
           Le site{" "}
           <a href="https://housest-atelier.fr">https://housest-atelier.fr</a>{" "}
@@ -494,7 +506,7 @@ export default function Home() {
         réduire ou empêcher l’accessibilité à tout ou partie des Services
         proposés par le site.
         <p></p>
-        <h3>9.1. « COOKIES »</h3>
+        <h3 className="font-bold">9.1. « COOKIES »</h3>
         <p>
           Un « cookie » est un petit fichier d’information envoyé sur le
           navigateur de l’Utilisateur et enregistré au sein du terminal de
@@ -587,7 +599,7 @@ export default function Home() {
           <a href="https://housest-atelier.fr">https://housest-atelier.fr</a>{" "}
           dépose ce type de cookies.
         </p>
-        <h3>Article 9.2. BALISES (“TAGS”) INTERNET</h3>
+        <h3 className="font-bold">Article 9.2. BALISES (“TAGS”) INTERNET</h3>
         <p>
           <a href="https://housest-atelier.fr">https://housest-atelier.fr</a>{" "}
           peut employer occasionnellement des balises Internet (également
@@ -620,7 +632,9 @@ export default function Home() {
           d’Internet.
         </p>
         <p></p>
-        <h2>10. Droit applicable et attribution de juridiction.</h2>
+        <h3 className="font-bold">
+          10. Droit applicable et attribution de juridiction.
+        </h3>
         <p>
           Tout litige en relation avec l’utilisation du site{" "}
           <a href="https://housest-atelier.fr">https://housest-atelier.fr</a>{" "}

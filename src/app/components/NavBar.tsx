@@ -4,6 +4,7 @@ import Logo from "@/app/assets/Logo.svg";
 import CTA from "@/app/components/CTA";
 import { gsap } from "gsap";
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
@@ -56,7 +57,7 @@ const NavBar = () => {
   }, []);
 
   const windowSize = () => {
-    if (window.innerWidth < 640) {
+    if (window.innerWidth < 1024) {
       setIsMobile(true);
     } else {
       setIsMobile(false);
@@ -74,16 +75,26 @@ const NavBar = () => {
             onClick={() => router.push("/")}
           ></Image>
 
-          <ul className="flex flex-row items-center w-4/12 min-w-[350px] justify-around">
+          <ul className="flex flex-row items-center w-8/12 min-w-[350px] justify-around">
             <li>
-              <a href="#prices" className="text-secondary sub-p">
-                Tarifs
-              </a>
+              <Link href="/#services" className="text-secondary sub-p">
+                Services
+              </Link>
             </li>
             <li>
-              <a href="#services" className="text-secondary sub-p">
-                Services
-              </a>
+              <Link href="/#prices" className="text-secondary sub-p">
+                Tarifs
+              </Link>
+            </li>
+            <li>
+              <Link href="/#engagments" className="text-secondary sub-p">
+                A Propos
+              </Link>
+            </li>
+            <li>
+              <Link href="/#contact" className="text-secondary sub-p">
+                Contact
+              </Link>
             </li>
             <CTA color="primary" header></CTA>
           </ul>
@@ -126,22 +137,40 @@ const NavBar = () => {
             ref={burgerMenuContent}
           >
             <li>
-              <a
-                href="#prices"
-                onClick={toggleMenu}
-                className="text-secondary sub-p"
-              >
-                Tarifs
-              </a>
-            </li>
-            <li>
-              <a
-                href="#services"
+              <Link
+                href="/#services"
                 onClick={toggleMenu}
                 className="text-secondary sub-p"
               >
                 Services
-              </a>
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/#prices"
+                onClick={toggleMenu}
+                className="text-secondary sub-p"
+              >
+                Tarifs
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/#engagments"
+                onClick={toggleMenu}
+                className="text-secondary sub-p"
+              >
+                A propos
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/#contact"
+                onClick={toggleMenu}
+                className="text-secondary sub-p"
+              >
+                Contact
+              </Link>
             </li>
             <li>
               <CTA color="primary"></CTA>
