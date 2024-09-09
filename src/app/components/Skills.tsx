@@ -37,7 +37,7 @@ const Skills = () => {
     >
       <div className="flex flex-col gap-6 w-full items-center sm:items-start sm:w-[47,5%] sm:gap-8 text-center sm:text-start">
         <h4> Nos services </h4>
-        <h2> Quels sont mes compétences ? </h2>
+        <h2> Quels sont nos compétences ? </h2>
         <p>
           Prenez rendez-vous dès maintenant, et voyons comment je nous pouvons
           vous aider

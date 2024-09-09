@@ -3,6 +3,7 @@
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useRef } from "react";
 
 interface CtaProps {
@@ -16,9 +17,10 @@ const Cta: React.FC<CtaProps> = ({
   color = "primary",
   content = "Prendre rendez-vous",
   header = false,
-  link = "https://tidycal.com/aspenne/rendez-vous-personnel",
+  link = "https://tidycal.com/houest-atelier",
 }) => {
   const buttonRef = useRef(null);
+  const router = useRouter();
   const divRef = useRef(null);
   const { contextSafe } = useGSAP();
   const bgColor = color === "secondary" ? "bg-secondary" : "bg-primary";
@@ -61,6 +63,7 @@ const Cta: React.FC<CtaProps> = ({
 
   return header ? (
     <div
+      onClick={() => router.push(link)}
       className="flex items-center justify-center border-primary border-4 rounded-2xl"
       ref={divRef}
     >
@@ -71,9 +74,7 @@ const Cta: React.FC<CtaProps> = ({
         onMouseLeave={handleMouseLeave}
         style={buttonStyle}
       >
-        <Link href="https://tidycal.com/aspenne/rendez-vous-personnel">
-          {content}
-        </Link>
+        <Link href={link}>{content}</Link>
       </button>
     </div>
   ) : (
