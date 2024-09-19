@@ -56,7 +56,7 @@ const Skills = () => {
             </div>
             <p className="text-primary font-semibold"> Dépannage matériel </p>
             <p>
-              Démarrage difficile, écran bleu, virus ?{" "}
+              Un démarrage difficile, écran bleu, virus ?{" "}
               <Link
                 href="https://tidycal.com/houest-atelier"
                 className="text-primary underline cursor-pointer"
@@ -69,10 +69,7 @@ const Skills = () => {
             <div className="flex justify-center items-center bg-secondary w-14 h-14 p-2 rounded">
               <FontAwesomeIcon icon={faBugSlash} color="white" size={"2xl"} />
             </div>
-            <p className="text-primary font-semibold ">
-              {" "}
-              Formation et Accompagnement :{" "}
-            </p>
+            <p className="text-primary font-semibold ">Dépannage logiciel : </p>
             <p>
               Des fichiers perdus ou supprimés, lenteur, Virus, Bug ?{" "}
               <Link
@@ -90,11 +87,11 @@ const Skills = () => {
               <FontAwesomeIcon icon={faLaptop} color="white" size={"2xl"} />
             </div>
             <p className="text-primary font-semibold">
-              Réparation informatique{" "}
+              Formation et Accompagnement :{" "}
             </p>
             <p>
               Initiation logiciel adaptée aux utilisateurs débutants et aide
-              administrative informatique
+              administrative informatique{" "}
               <Link
                 href="https://tidycal.com/houest-atelier"
                 className="text-primary underline cursor-pointer"
@@ -116,7 +113,7 @@ const Skills = () => {
             </p>
             <p>
               Assistance en direct via des outils de contrôle à distance pour
-              répondre à vos questions et résoudre vos problèmes
+              répondre à vos questions et résoudre vos problèmes{" "}
               <Link
                 href="https://tidycal.com/houest-atelier"
                 className="text-primary underline cursor-pointer"

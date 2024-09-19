@@ -72,6 +72,7 @@ const Cta: React.FC<CtaProps> = ({
         className={`flex justify-center items-center rounded-xl ${bgColor} py-5 text-white h-[56px] m-1 p-2`}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
+        onClick={() => router.push(link)}
         style={buttonStyle}
       >
         <Link href={link}>{content}</Link>
@@ -83,6 +84,7 @@ const Cta: React.FC<CtaProps> = ({
       className={`flex justify-center items-center rounded-xl ${bgColor} p-4 text-white h-[56px]`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      onClick={() => router.push(link)}
       style={buttonStyle}
     >
       <Link href={link}>{content}</Link>
