@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Houest Atelier",
   description:
-    "Auto-entrepreneur en dépannage informatique, je propose des services rapides et fiables pour résoudre tous vos problèmes informatiques. Réservez votre rendez-vous en ligne et bénéficiez d'un support personnalisé, adapté à vos besoins. Faites confiance à un expert indépendant pour un service sur mesure aux alentours de Nantes.",
+    "Auto-entrepreneur en dépannage informatique, nous proposons des services rapides et fiables pour résoudre tous vos problèmes informatiques. Réservez votre rendez-vous en ligne et bénéficiez d'un support personnalisé, adapté à vos besoins. Faites confiance à un expert indépendant pour un service sur mesure aux alentours de Nantes.",
   icons: favicon.src,
   keywords: [
     "dépannage informatique",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Houest Atelier",
     description:
-      "Auto-entrepreneur en dépannage informatique, je propose des services rapides et fiables pour résoudre tous vos problèmes informatiques. Réservez votre rendez-vous en ligne et bénéficiez d'un support personnalisé, adapté à vos besoins. Faites confiance à un expert indépendant pour un service sur mesure aux alentours de Nantes.",
+      "Auto-entrepreneur en dépannage informatique, nous proposons des services rapides et fiables pour résoudre tous vos problèmes informatiques. Réservez votre rendez-vous en ligne et bénéficiez d'un support personnalisé, adapté à vos besoins. Faites confiance à un expert indépendant pour un service sur mesure aux alentours de Nantes.",
     images:
       "https://opengraph.b-cdn.net/production/images/b98e7b14-7fed-450b-95f6-7a9a81f550e2.png?token=ssZQ88ko6P3gaXmhBwcEI0-kyVqL7TBT2sVWV-s81G0&height=611&width=1200&expires=33260751405",
     url: "https://houest-atelier.fr",

@@ -8,7 +8,7 @@ const Price = () => {
       className="w-full py-14 px-7 flex flex-col justify-between items-center gap-8 text-secondary bg-white sm:px-16 sm:py-28"
       id="prices"
     >
-      <h2> Mes tarifs</h2>
+      <h2> Nos tarifs</h2>
       <div className="flex flex-row justify-between items-center gap-3 mb-3">
         <Image
           className="w-auto h-auto"
@@ -106,7 +106,7 @@ const Price = () => {
         </p>
         <p>
           {" "}
-          Nous acceptions les paiements par chèque, carte bancaire ou espèces.{" "}
+          Nous acceptons les paiements par chèque, carte bancaire ou espèces.{" "}
         </p>
         <p className="font-semibold text-primary">
           Veuillez noter que la remise ne s&apos;applique pas aux services à la

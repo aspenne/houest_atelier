@@ -31,7 +31,7 @@ const Engagement = () => {
                 size={1}
                 color="#E98123"
               />
-              <p>Matériel & outils adaptés</p>
+              <p>Matériel et outils adaptés</p>
             </div>
             <div className="flex flex-row gap-2">
               <Icon

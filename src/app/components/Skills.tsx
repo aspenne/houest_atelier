@@ -39,8 +39,8 @@ const Skills = () => {
         <h4> Nos services </h4>
         <h2> Quels sont nos compétences ? </h2>
         <p>
-          Prenez rendez-vous dès maintenant, et voyons comment je nous pouvons
-          vous aider
+          Prenez rendez-vous dès maintenant, et voyons comment nous pouvons vous
+          aider
         </p>
         {!isMobile && <Cta />}
       </div>
@@ -61,7 +61,7 @@ const Skills = () => {
                 href="https://tidycal.com/houest-atelier"
                 className="text-primary underline cursor-pointer"
               >
-                Réparons ça !{" "}
+                Réparons ça !
               </Link>
             </p>
           </div>

@@ -32,10 +32,10 @@ const Footer = () => {
                 <a href="/#services">Services</a>
               </li>
               <li>
-                <a href="/#prices"> Mes tarifs</a>
+                <a href="/#prices"> Nos tarifs</a>
               </li>
               <li>
-                <a href="/#engagments"> Mes engagements</a>
+                <a href="/#engagments"> Nos engagements</a>
               </li>
               <li>
                 <a href="/#intervention">Les étapes pour une intervention</a>
