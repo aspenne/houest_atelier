@@ -56,8 +56,8 @@ const Price = () => {
                 <p> Par tranche de 30 min </p>
               </div>
               <div>
-                <p className="text-end"> 35 €</p>
-                <p className="text-end"> 17,5 €</p>
+                <p className="text-end"> 45 €</p>
+                <p className="text-end"> 22,5 €</p>
               </div>
             </div>
           </div>
@@ -86,14 +86,14 @@ const Price = () => {
             <div className="flex flex-row gap-3">
               <div className="flex flex-col gap-12 justify-end">
                 <p className="text-end"> 5€</p>
-                <p className="text-end"> 10€</p>
                 <p className="text-end"> 15€</p>
+                <p className="text-end"> 25€</p>
               </div>
               <div className="w-0.5 bg-black" />
               <div className="flex flex-col gap-12 justify-end">
                 <p className="text-primary text-end"> 2,5€*</p>
-                <p className="text-primary text-end"> 5€*</p>
-                <p className="text-primary text-end"> 7,5€*</p>
+                <p className="text-primary text-end"> 7.5€*</p>
+                <p className="text-primary text-end"> 12,5€*</p>
               </div>
             </div>
           </div>
