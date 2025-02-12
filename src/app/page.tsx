@@ -10,7 +10,7 @@ import favicon from "@/app/favicon.ico";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Houest Atelier",
+  title: "Dépannage informatique à domicile Nantes - Houest Atelier",
   description:
     "Auto-entrepreneur en dépannage informatique, nous proposons des services rapides et fiables pour résoudre tous vos problèmes informatiques. Réservez votre rendez-vous en ligne et bénéficiez d'un support personnalisé, adapté à vos besoins. Faites confiance à un expert indépendant pour un service sur mesure aux alentours de Nantes.",
   icons: favicon.src,
